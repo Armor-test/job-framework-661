@@ -1,0 +1,41 @@
+# CODEOWNERS file for job-framework-661
+# Global owners - will be requested for all PRs
+* @Armor-test/team-governance @Armor-test/grp-storage @Armor-test/team-frontend
+
+# Directory ownership
+/test/ @Armor-test/team-logging @Armor-test/dept-security @Armor-test/unit-test
+/static/ @Armor-test/unit-governance @Armor-test/squad-cloud @Armor-test/grp-integration
+/plugins/ @Armor-test/unit-test @Armor-test/squad-performance @Armor-test/squad-apps
+/pages/ @Armor-test/dept-identity @Armor-test/unit-design
+/extensions/ @Armor-test/squad-qa @Armor-test/dept-api @Armor-test/squad-performance
+/examples/ @Armor-test/dept-data @Armor-test/grp-ui @Armor-test/dept-ui
+/migrations/ @Armor-test/dept-logging @Armor-test/team-reporting
+/deploy/ @Armor-test/dept-billing @Armor-test/squad-tooling
+/scripts/ @Armor-test/team-core @Armor-test/dept-logging
+/tests/ @Armor-test/grp-storage @Armor-test/grp-payments
+/assets/ @Armor-test/team-notifications @Armor-test/dept-identity @Armor-test/team-governance
+/pkg/ @Armor-test/squad-search @Armor-test/squad-tooling @Armor-test/dept-reliability
+/public/ @Armor-test/squad-api @Armor-test/dept-logging
+/lib/ @Armor-test/squad-api @Armor-test/grp-ui @Armor-test/team-governance
+/config/ @Armor-test/team-governance @Armor-test/dept-security
+
+# File type ownership
+*.cs @Armor-test/unit-devops @Armor-test/unit-test @Armor-test/dept-automation
+*.ts @Armor-test/grp-storage @Armor-test/squad-performance @Armor-test/grp-search
+*.py @Armor-test/squad-tooling @Armor-test/dept-reliability
+*.tsx @Armor-test/squad-cloud @Armor-test/unit-design @Armor-test/squad-apps
+*.css @Armor-test/dept-logging @Armor-test/grp-integration
+*.html @Armor-test/grp-payments @Armor-test/squad-cache @Armor-test/squad-qa
+*.json @Armor-test/squad-product @Armor-test/team-research @Armor-test/squad-frontend
+*.config @Armor-test/squad-cloud @Armor-test/grp-search @Armor-test/squad-apps
+*.md @Armor-test/squad-qa @Armor-test/grp-reporting
+*.gradle @Armor-test/dept-release @Armor-test/grp-storage @Armor-test/squad-frontend
+*.php @Armor-test/grp-search @Armor-test/squad-qa @Armor-test/unit-cloud
+*.xml @Armor-test/squad-product @Armor-test/squad-performance
+*.go @Armor-test/squad-performance @Armor-test/squad-qa @Armor-test/grp-api
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
